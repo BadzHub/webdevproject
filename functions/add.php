@@ -17,7 +17,7 @@
                         echo "<font color ='red'>Subject Code field is empty.</font><br/>";
                     }
                     if(empty($name)){
-                        echo "font color ='red'>Subject Name field is empty.</font><br/>";
+                        echo "<font color ='red'>Subject Name field is empty.</font><br/>";
                     }
                     //link to the previous page
                     echo "<br/><a href='javascript:self.history.back();'>Go Back</a>";
