@@ -16,7 +16,7 @@ f<?php
         }
         else {
             //updating the table
-            mysqli_query($dbc, "UPDATE tblsubject SET subject_code='$code', subject_name='$name' WHERE subject_id='$id'");
+            mysqli_query($dbc, "UPDATE tblsubjects SET subject_code='$code', subject_name='$name' WHERE subject_id='$id'");
             //redirectimg to the display page. In our case, it is index.php
             header("Location: ../index.php"); 
 

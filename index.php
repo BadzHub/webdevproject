@@ -1,6 +1,6 @@
 <?php
     //including the database connection file
-    include_once("dbConnection/mysqlconfig_connection.php");
+    include_once("./dbConnection/mysqlconfig_connection.php");
     //including the fetch file
     include_once("functions/fetch.php");
 ?>
